@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // import { NestFactory } from '@nestjs/core';
 // import { AppModule } from './app.module';
 
@@ -20,13 +19,6 @@ async function bootstrap() {
   app.setBaseViewsDir(join(__dirname, '..','..','client', 'build')); // React 빌드 디렉토리 경로 설정
   // app.setViewEngine('html'); // 사용하는 뷰 엔진 설정
   
-=======
-import { NestFactory } from '@nestjs/core';
-import { AppModule } from './app.module';
-
-async function bootstrap() {
-  const app = await NestFactory.create(AppModule);
->>>>>>> d885d9597eb3fb305819fa8fa542d9a91c20ffd2
   await app.listen(3000);
 }
 bootstrap();
