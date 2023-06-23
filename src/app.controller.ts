@@ -7,6 +7,7 @@
 
 //   @Get()
 //   getHello(): string {
+//     return this.appService.getHello();
 //   }
 // }
 
